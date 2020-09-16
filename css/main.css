@@ -175,18 +175,44 @@ footer{
 }
 .main-login .login form label{
   font-family: Kanit-Regular;
-  font-size: 16px;
-  color: #fff;
-  margin-bottom: 15px; 
+  font-size: 14px;
+  color: #fff; 
+}
+.main-login .login form small{
+  font-family: Kanit-Regular;
+  font-size: 9px; 
+}
+.main-login .login form p{
+  font-family: Kanit-Regular;
+  font-size: 9px; 
+  color: #FFCA01;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+.main-login .login form p:before{
+  content: "-";
+  position: absolute;
+  margin-left: -10px;
 }
 .main-login .login form input{
   background-color: #434343;
   font-family: Kanit-Regular;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   border-radius: 0px;
   border: none;
-  height: 45px;
+  height: 35px;
+}
+.main-login .login form select{
+  background-color: #434343;
+  font-family: Kanit-Regular;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  height: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .main-login .login form .button1{
   width: 100%;
@@ -365,7 +391,7 @@ h2.x2{
     padding-top: 20px; 
   }
   .main-login .login .nav-tabs .nav-item .nav-link{ 
-    font-size: 18px; 
+    font-size: 16px; 
   }
   .box-how h3{ 
     font-size: 26px;
