@@ -91,8 +91,7 @@ a:hover{
 body{
   background-color: rgba(17,17,17,.9);
 }
-.navbar{ 
-  height: 80px;
+.navbar{  
   background-color: #222222;
   box-shadow: 0px 3px 10px #3838381A; 
   border-bottom: 2px solid #FEBD00;
@@ -178,8 +177,7 @@ footer{
   font-family: Kanit-Regular;
   font-size: 16px;
   color: #fff;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 15px; 
 }
 .main-login .login form input{
   background-color: #434343;
@@ -188,7 +186,7 @@ footer{
   color: #fff;
   border-radius: 0px;
   border: none;
-  height: 50px;
+  height: 45px;
 }
 .main-login .login form .button1{
   width: 100%;
@@ -254,29 +252,21 @@ h2.x2{
   width: 100%;
   background-color: #000000;
   color: #FEBD00;
-  font-family: Kanit-Regular;
-  font-size: 22px;
-  padding: 15px;
-  padding-left: 30px;
+  font-family: Kanit-Regular; 
 }
 .box-how h3{
   color: #FEBD00;
   text-align: center;
-  font-family: Kanit-Regular;
-  font-size: 30px;
-  margin-top: 30px;
+  font-family: Kanit-Regular; 
 }
 .box-how h5{
   color: #fff;
   text-align: center;
-  font-family: Kanit-Regular;
-  font-size: 18px;
+  font-family: Kanit-Regular; 
 }
 .box1 p{
   color: #fff; 
-  font-family: Kanit-Regular;
-  font-size: 18px;
-  padding: 15px 30px;
+  font-family: Kanit-Regular; 
 }
 .box1 ul{
   list-style: none; 
@@ -284,30 +274,20 @@ h2.x2{
 }
 .box1 ul li{
   color: #fff; 
-  font-family: Kanit-Regular;
-  font-size: 18px; 
-  line-height: 35px;
-  padding-left: 15px;
+  font-family: Kanit-Regular; 
 }
 .box1 ul li:before{
   content: "";
-  background-image: url(../images/checked.png);
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  margin-left: -40px;
-  margin-top: 5px;
+  background-image: url(../images/checked.png); 
 }
 
 .news-feed a{
   color: #FEBD00; 
-  font-family: Kanit-Regular;
-  font-size: 28px; 
+  font-family: Kanit-Regular; 
 }
 .news-feed p{
   color: #fff; 
-  font-family: Kanit-Regular;
-  font-size: 16px;
+  font-family: Kanit-Regular; 
 }
 
 
@@ -328,16 +308,58 @@ h2.x2{
   .main-login .login .nav-tabs .nav-item .nav-link{ 
     font-size: 16px; 
   }
+  .box-how h3{ 
+    font-size: 24px;
+    margin-top: 15px;
+  }
+  .box-how h5{ 
+    font-size: 14px;
+  }
+  .box1 p{ 
+    font-size: 14px;
+    padding: 15px 15px;
+  }
+  .box1 ul li{ 
+    font-size: 14px; 
+    line-height: 25px; 
+  }
+  .box1 ul li:before{ 
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-size: 18px 18px;
+    margin-left: -35px;
+    margin-top: 5px;
+  }
+  h2.x2{ 
+    font-size: 18px;
+    padding: 15px;
+    padding-left: 15px;
+  }
+  .news-feed a{ 
+    font-size: 18px; 
+  }
+  .news-feed p{ 
+    font-size: 12px;
+  }
+  .navbar{ 
+    
+  }
+  .navbar-toggler{
+    color: #FEBD00;
+    font-size: 22px;
+    float: right;
+  } 
 }
 @media only screen and (min-width: 992px) { /* PC */
   .main-login .login{
-    padding: 60px;
+    padding: 30px;
   }    
   .menu-center{
     height: 80px;  
   }
   .menu-center ul li a{ 
-    font-size: 26px; 
+    font-size: 24px; 
   }
   .menu-center ul li{ 
     padding-top: 20px; 
@@ -345,14 +367,61 @@ h2.x2{
   .main-login .login .nav-tabs .nav-item .nav-link{ 
     font-size: 18px; 
   }
+  .box-how h3{ 
+    font-size: 26px;
+    margin-top: 20px;
+  }
+  .box-how h5{ 
+    font-size: 14px;
+  }
+  .box1 p{ 
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+  .box1 ul li{ 
+    font-size: 18px; 
+    line-height: 35px;
+    padding-left: 15px;
+  }
+  .box1 ul li:before{ 
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 5px;
+  }
+  h2.x2{ 
+    font-size: 22px;
+    padding: 15px;
+    padding-left: 30px;
+  }
+  .news-feed a{ 
+    font-size: 28px; 
+  }
+  .news-feed p{ 
+    font-size: 16px;
+  }
+  .navbar{ 
+    height: 80px;  
+  }
+  .text-rightx{
+    text-align: right !important; 
+  }
 }
 
-@media only screen and (width: 1024px) { /* PC */
+
+
+
+
+@media only screen and (width: 1024px) { /* Ipad */
   .main-login .login{
     padding: 15px;
   }  
   .main-login .login .nav-tabs .nav-item .nav-link{ 
     font-size: 14px; 
+  }
+  .navbar-nav .nav-item .nav-link{ 
+    font-size: 16px; 
   }
 }
 
